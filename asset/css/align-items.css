@@ -1,0 +1,32 @@
+.container{
+    max-width: 420px;
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid #ccc;
+}
+.item{
+    margin: 5px;
+    padding: 0 10px;
+    background-color: coral;
+    text-align: center;
+    font-size: 1.5em;
+    flex: 1;
+}
+.stretch{
+    align-items: stretch;
+}
+h1{
+    text-align: center;
+    font-size: 1.5em;
+    margin: 20px 0 0 0;
+    font-weight: 600;
+}
+.flex-start{
+    align-items: flex-start;
+}
+.flex-end{
+    align-items: flex-end;
+}
+.center{
+    align-items: center;
+}
